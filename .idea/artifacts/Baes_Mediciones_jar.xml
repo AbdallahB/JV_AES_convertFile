@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Baes Mediciones:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Baes_Mediciones_jar</output-path>
+    <root id="archive" name="Baes Mediciones.jar">
+      <element id="module-output" name="Baes Mediciones" />
+    </root>
+  </artifact>
+</component>

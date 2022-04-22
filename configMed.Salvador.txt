@@ -1,0 +1,18 @@
+Caracterizacion de la Carga|
+El Salvador|
+8|5|5|15|
+A|B|C|D|E|
+2|
+R|G|
+0|1|
+1|2|3|
+1|1|1|1|1|1|1|1|1|
+0|
+0|0|0|1|1|0|0|0|0|
+1|
+1|0|0|0|0|0|0|1|
+6b934e92b494c992e7b3405233d0de4e|
+|A|G|H|F|AG|AH|AF|GH|FG|AGH|AFG|AI|GI|HI|FI|AGI|AHI|AFI|GHI|FGI|AGHI|I|
+
+6b934e92b494c992e7b3405233d0de4e|
+

@@ -1,0 +1,32 @@
+Caracterizacion de la Carga|
+Proy|
+13|12|1|
+S|
+4|
+R|G|4|2|
+7|3|
+8|9|0|
+1|1|1|1|1|1|0|1|
+1|
+
+
+
+
+
+
+ LINEA 	LEYENDA
+	1		Denominación del proyecto
+	2 		Ciudad de la campaña
+	3		Dias medición|Min días aceptables| Cantidad de Empresas participantes|Cadencia de la muestra
+	4		Lista de la letra que corresponde a cada empresa participante
+	5		Cantidad de Tarifas existentes - solo referencia
+	6		Lista de iniciales de cada tarifa
+	7  		Lista de estratos o flag UPR (0 y 1)
+	8 		Lista de último digito años de vigencia
+	9  		Lista de flags que indican los controles que serán activados (0=desact. 1=Activo)
+	10		Flag de uso especial debe ser =0 (su activacion inhibirá la seleccion de formato seleccionado, ya que es de uso futuro)
+	11 		Lista de Flags que indican el formato o funcion que se activa  (0=desact. 1=Activo)
+	12		Flag  de habilitación de archivos estándar
+	13 		Lista flag Opciones integrador compilador 0=desact. 1=Activo
+	14		Clave Hash de permisología
+	15 		Lista de Calificaciones Compilables

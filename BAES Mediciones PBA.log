@@ -1,0 +1,77 @@
+Excelsior JET v15.3 Evaluation 64-bit (c) Excelsior 1997,2018
+Active Java SE Version 1.8.0_181 (OpenJDK, profile 108181)
+************************  JET v15.3 EVALUATION **************************
+*  This program cannot be used in a business, commercial, government,  *
+*  or  institutional  environment  except  for  evaluation  purposes.  *
+************************************************************************
+Make project "C:\A Baes Mediciones Beta 22\Baes Check Java\BAES Mediciones PBA.prj"
+Reading out/artifacts/Baes_Check_Java_jar/BAES Mediciones.jar ...  12 classes
+
+Total compilable classes within classpath entries: 12
+
+Full recompilation due to compiler options changes
+
+------------------------  Parsing Stage  ---------------------------------------
+
+   1/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Archivo.class
+   2/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$1.class
+   3/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$2.class
+   4/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$3.class
+   5/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$4.class
+   6/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$5.class
+   7/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main.class
+   8/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones$1.class
+   9/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones$2.class
+  10/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones.class
+  11/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/RoundedBorder.class
+  12/12: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Setup.class
+-------------------------------------------------------------------
+files: 12  errors: 0  warnings: 0  notices: 0
+
+Writing dependencies info ...
+
+--------------------  Inline Planning Stage  -----------------------------------
+                    
+
+-------------------------------------------------------------------
+
+------------------------  Codegen Stage  ---------------------------------------
+
+  0% done, 12/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Archivo.class
+errors(0), warnings(0), notes(0); bytes(40852), time  2.06
+  8% done, 11/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$1.class
+errors(0), warnings(0), notes(0); bytes(4306), time  0.03
+ 16% done, 10/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main.class
+errors(0), warnings(0), notes(0); bytes(8079), time  0.41
+ 25% done, 9/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/RoundedBorder.class
+errors(0), warnings(0), notes(0); bytes(4060), time  0.03
+ 33% done, 8/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$2.class
+errors(0), warnings(0), notes(0); bytes(4307), time  0.02
+ 41% done, 7/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$3.class
+errors(0), warnings(0), notes(0); bytes(3434), time  0.01
+ 50% done, 6/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$4.class
+errors(0), warnings(0), notes(0); bytes(3533), time  0.02
+ 58% done, 5/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones.class
+errors(0), warnings(0), notes(0); bytes(19836), time  0.59
+ 66% done, 4/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Setup.class
+errors(0), warnings(0), notes(0); bytes(24268), time  0.53
+ 75% done, 3/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones$1.class
+errors(0), warnings(0), notes(0); bytes(4587), time  0.03
+ 83% done, 2/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Mediciones$2.class
+errors(0), warnings(0), notes(0); bytes(4587), time  0.01
+ 91% done, 1/12 to go: out\artifacts\Baes_Check_Java_jar\BAES Mediciones.jar:/com/company/Main$5.class
+errors(0), warnings(0), notes(0); bytes(4297), time  0.04
+Processing startup profile...
+Preparing resources for packing ...
+Processing out/artifacts/Baes_Check_Java_jar/BAES Mediciones.jar ...
+Resources were successfully prepared for packing.
+-------------------------------------------------------------------
+files: 12  errors: 0  warnings: 0  notices: 0
+
+XDS Link Version 2.25.42 Copyright (c) Excelsior 1995-2018.
+No errors, no warnings
+
+Link time 0:04.73
+
+Total compilation time 0:19.98
+

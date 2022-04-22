@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Baes EDEA Normalizador Java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Baes_EDEA_Normalizador_Java_jar</output-path>
+    <root id="archive" name="BAES Mediciones.jar">
+      <element id="module-output" name="Baes Mediciones" />
+    </root>
+  </artifact>
+</component>

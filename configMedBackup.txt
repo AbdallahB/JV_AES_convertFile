@@ -1,0 +1,30 @@
+Caracterizacion de la Carga|
+Proyecto|
+7|5|4|
+A|N|S|L|
+4|
+R|G|4|2|
+7|3|
+8|9|0|
+1|1|1|1|1|1|1|1|
+0|
+
+
+Linea 1: Nombre del proyecto
+Linea 2: Lugar
+Linea 3: Dias de permanencia + Dias minimo validez + Numero de empresas participantes
+Linea 4: Inciales de las empresas (un caracter por cada una, separado por |)
+Linea 5: Nro de tarifas (un caracter por cada una, separado por |)
+Linea 6: Tarifas
+Linea 7: Nro de estratos + nro de años de la campaña
+Linea 8: Último digito a validar en la asignacion de nombre, correspondiente al último digito de los años q abarque la campaña
+Linea 9: "0" desactiva, "1" Habilita cualquiera de las 8 pruebas de control, un digito por cada una
+         a)Dias minimo de permanencia del medidor
+         b)Duración en días que debe tener la medición sin tener medidas marcadas como fallidas (caida de potencial, corriente cero, entre otros)
+         c)Fecha final real - Fecha inicialreal > 365 días 
+         d)Registros observados: Fecha y/o Hora incorrecta, Anormalidades y/o Energia nula o negativa  
+         e)Energía registrada igual a cero en todos los registros 
+         f)Energía registrada igual a una constante distinta de cero en todos los registros 
+         g)Nombre de archivo mal asignado
+         h)Valores negativos de energía o valores nulos 
+Linea 10) "0" configuracion PBAires; "1" Con figiracion San Juan    

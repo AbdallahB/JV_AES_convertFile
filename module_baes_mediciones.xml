@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_baes_mediciones" default="compile.module.baes_mediciones">
+  <dirname property="module.baes_mediciones.basedir" file="${ant.file.module_baes_mediciones}"/>
+  
+  <property name="module.jdk.home.baes_mediciones" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.baes_mediciones" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.baes_mediciones" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.baes_mediciones" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="baes_mediciones.output.dir" value="${module.baes_mediciones.basedir}/out/production/Baes Mediciones"/>
+  <property name="baes_mediciones.testoutput.dir" value="${module.baes_mediciones.basedir}/out/test/Baes Mediciones"/>
+  
+  <path id="baes_mediciones.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="baes_mediciones.module.production.classpath">
+    <path refid="${module.jdk.classpath.baes_mediciones}"/>
+  </path>
+  
+  <path id="baes_mediciones.runtime.production.module.classpath">
+    <pathelement location="${baes_mediciones.output.dir}"/>
+  </path>
+  
+  <path id="baes_mediciones.module.classpath">
+    <path refid="${module.jdk.classpath.baes_mediciones}"/>
+    <pathelement location="${baes_mediciones.output.dir}"/>
+  </path>
+  
+  <path id="baes_mediciones.runtime.module.classpath">
+    <pathelement location="${baes_mediciones.testoutput.dir}"/>
+    <pathelement location="${baes_mediciones.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.baes_mediciones">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.baes_mediciones">
+    <patternset refid="excluded.from.module.baes_mediciones"/>
+  </patternset>
+  
+  <path id="baes_mediciones.module.sourcepath">
+    <dirset dir="${module.baes_mediciones.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.baes_mediciones" depends="compile.module.baes_mediciones.production,compile.module.baes_mediciones.tests" description="Compile module Baes Mediciones"/>
+  
+  <target name="compile.module.baes_mediciones.production" depends="register.custom.compilers" description="Compile module Baes Mediciones; production classes">
+    <mkdir dir="${baes_mediciones.output.dir}"/>
+    <javac2 destdir="${baes_mediciones.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.baes_mediciones}/javac">
+      <compilerarg line="${compiler.args.baes_mediciones}"/>
+      <bootclasspath refid="baes_mediciones.module.bootclasspath"/>
+      <classpath refid="baes_mediciones.module.production.classpath"/>
+      <src refid="baes_mediciones.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.baes_mediciones"/>
+    </javac2>
+    
+    <copy todir="${baes_mediciones.output.dir}">
+      <fileset dir="${module.baes_mediciones.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.baes_mediciones.tests" depends="register.custom.compilers,compile.module.baes_mediciones.production" description="compile module Baes Mediciones; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.baes_mediciones" description="cleanup module">
+    <delete dir="${baes_mediciones.output.dir}"/>
+    <delete dir="${baes_mediciones.testoutput.dir}"/>
+  </target>
+</project>
